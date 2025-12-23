@@ -1,0 +1,84 @@
+01/12/2025:
+
+	I analyzed the workflow of TruckrrOne, TruckrrHub, and TruckrrHero, and also reviewed the Park+ application.
+
+02/12/2025:
+	
+	I am working on Antigravity with Bloc Statemanagement and studying about Bloc
+
+03/12/2025:(work from home)
+
+	Subscription 4 screen completed
+
+04/12/2025:
+
+	KT was got from siromani sir. 
+	I explain the concept of truckrrhub to Nishanth
+	Change the folder structure of Subscription module as said by Aravind
+
+05/12/2025:
+
+	I am created Free trial Expired page.
+	Created dependency for select vehicle.
+	R&D for how to publish dependency in pub dev.
+	
+08/12/2025:
+
+	I am created Digital Card's 4 Screen.
+
+09/12/2025:
+
+	Merge the code like subscription and hpcl
+	GitHub access was given
+	android studio version was updated
+	removed unwanted dependencies
+
+10/12/2025:
+
+	Add the merged codes in the truckrrone project
+	
+11/12/2025:
+
+	Understand the concept of GitHub Tracking vehicle module
+	Analys the API key inside the tracking vehicle module
+	Minor UI changes of hpcl pages are done
+	
+12/12/2025: 
+
+	Worked on play button in the vehicle tracking module
+	UI of the play button screen is completed 
+
+13/12/2025:(Saturday)
+14/12/2025:(sunday)
+
+15/12/2025: 
+
+	API integration for play button in map.
+	parked and offline locations are pinned.
+
+16/12/2025:
+
+	Animation through the path is completed.
+	UI correct of Animation was done.
+
+17/12/2025:
+
+	Today, yesterday route history problem solved.
+	Correct the route history api for both route history and play path.
+
+18/12/2025:
+
+	Visit the web of truckrr for identify the data modification based on respective date.
+	To solve the data based on respective date in the mobile application.
+	communicate with omnitech and clarify the api doubts 
+	understand the concept and functionality of logger and toastification
+
+19/12/2025:
+
+	Distance calculation in the API
+	Omnia tech API binding completed
+	
+22/12/2025:
+
+	Google MAP SPEED, DURATION and distance tracking is completed
+	HPCL page API integration

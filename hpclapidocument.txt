@@ -1,0 +1,210 @@
+https://api.truckrr.com/transporter/api/v1/hpcl/hpclsignup
+
+{
+  "infoId": "string",
+  "recordStatus": "string",
+  "dtpCustomerID": "string",
+  "customerTitle": "string",
+  "customerName": "string",
+  "permanentAddress1": "string",
+  "permanentAddress2": "string",
+  "permanentAddress3": "string",
+  "permanentAddressLocation": "string",
+  "permanentAddressCity": "string",
+  "permanentAddressDistrict": "string",
+  "permanentAddressState": "string",
+  "permanentAddressPincode": "string",
+  "customerEmail": "string",
+  "communicationAddress1": "string",
+  "communicationAddress2": "string",
+  "communicationAddress3": "string",
+  "communicationAddressLocation": "string",
+  "communicationAddressCity": "string",
+  "communicationAddressDistrict": "string",
+  "communicationAddressState": "string",
+  "communicationAddressPincode": "string",
+  "mobileNumber": "string",
+  "nameOnCard": "string",
+  "keyTitle": "string",
+  "keyFirstName": "string",
+  "keyDesignation": "string",
+  "keyMobile": "string",
+  "environment": "string",
+  "pan": "string"
+}
+
+
+get : https://api.truckrr.com/transporter/api/v1/hpcl/getcustomerbytransporterid?transporterId
+
+get : https://api.truckrr.com/transporter/api/v1/hpcl/customerbalbytransporter?infoId
+
+get : https://api.truckrr.com/transporter/api/v1/hpcl/getvehiclelistbytransid?transporterId
+
+https://api.truckrr.com/transporter/api/v1/hpcl
+
+{
+  "cardlist": [
+    {
+      "vehicleType": "string",
+      "vehicleNumber": "string",
+      "registrationYear": "string",
+      "cardPreferenceType": "string",
+      "mobileNo": "string",
+      "manufacturer": "string",
+      "rcDoc": "string",
+      "customerID": "string",
+      "environment": "string",
+      "vehicleInfoId": "string",
+      "driverId": "string",
+      "driverName": "string",
+      "address": "string",
+      "fileName": "string"
+    }
+  ],
+  "infoId": "string",
+  "downloadPath": "string"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/cardbal
+
+{
+  "customerID": "string",
+  "cardNumbers": "string",
+  "environment": "string"
+}
+
+get : https://api.truckrr.com/transporter/api/v1/hpcl/hpclstatelist
+
+get : https://api.truckrr.com/transporter/api/v1/hpcl/hpcldistrictlist
+
+https://api.truckrr.com/transporter/api/v1/hpcl/fuelcardlist
+
+{
+  "advancedSearch": {
+    "fields": [
+      "string"
+    ],
+    "keyword": "string"
+  },
+  "keyword": "string",
+  "advancedFilter": {
+    "logic": "string",
+    "filters": [
+      "string"
+    ],
+    "field": "string",
+    "operator": "string",
+    "value": "string"
+  },
+  "pageNumber": 0,
+  "pageSize": 0,
+  "orderBy": [
+    "string"
+  ],
+  "searchText": "string",
+  "infoId": "string"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/ccmstocard
+
+{
+  "customerID": "string",
+  "cardNumber": "string",
+  "amount": "string",
+  "transactionId": "string",
+  "environment": "string"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/createphysicalcard
+
+Example Value
+Schema
+{
+  "cardlist": [
+    {
+      "vehicleType": "string",
+      "vehicleNumber": "string",
+      "registrationYear": "string",
+      "cardPreferenceType": "string",
+      "mobileNo": "string",
+      "manufacturer": "string",
+      "rcDoc": "string",
+      "customerID": "string",
+      "environment": "string",
+      "vehicleInfoId": "string",
+      "driverId": "string",
+      "driverName": "string",
+      "address": "string"
+    }
+  ],
+  "infoId": "string"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/postnewhpclcard
+
+{
+  "hpclCard": [
+    "string"
+  ]
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/gettransactionhistory
+
+{
+  "customerId": "string",
+  "startDate": "2025-12-17T06:23:12.087Z",
+  "endDate": "2025-12-17T06:23:12.087Z"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/generatempin
+
+{
+  "infoId": "string",
+  "customerId": "string"
+}
+
+https://api.truckrr.com/transporter/api/v1/hpcl/getmpinlastrecord
+
+{
+  "infoId": "string",
+  "customeriD": "string"
+}
+
+https://api.truckrr.com/api/v1/hpcl/blockunblockcard
+
+{
+  "infoId": "string",
+  "customerId": "string",
+  "cardNumber": "string",
+  "isBlockCard": true
+}
+
+https://api.truckrr.com/api/v1/hpcl/editorremovemobilenumber
+
+{
+  "customerID": "string",
+  "cardNumber": "string",
+  "mobile": "string",
+  "manipulationType": "string",
+  "vehicleNumber": "string",
+  "driverId": "string",
+  "driverName": "string",
+  "infoId": "string",
+  "vehicleInfoId": "string"
+}
+
+get : https://api.truckrr.com/api/v1/hpcl/gethpclcard
+
+https://api.truckrr.com/api/v1/hpcl/saveadvacedsettings
+
+{
+  "infoId": "string",
+  "isCCMSAlert": true,
+  "ccmsAmt": 0,
+  "isAutoTransferCCMStoCard": true,
+  "ccmStoCardMinAmt": 0,
+  "ccmStoCardAutoTransferUpto": 0
+}
+
+get : https://api.truckrr.com/api/v1/hpcl/getadvacedsettings?InfoId
+

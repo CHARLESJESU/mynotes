@@ -1,0 +1,48 @@
+	Enum in flutter used as a mini class here I can declare the const variables. 
+	ex: enum VehiclePathStatus { initial, loading, loaded, error }   final VehiclePathStatus status;
+
+	fluttergerms for indentify the correct dependency within a sec.
+
+	how to upload dependency in pubdev
+
+	Equatable in bloc event and state used to compare the object based on value instead of reference
+	so UI rebuild was not occur if the same value pass in the event.
+
+	props in event and state tell which object must be compare.
+
+	otp service vcom by using meta WhatsApp. otp javaspringboot.
+
+	Dont use print and log instead of this use logger dependency. instead of snack bar use toastification.
+
+	in logger methodcount is use to identify what are the callstatement occur before hit the logger.d() same thing for logger.e()
+
+	whenever I try to push the flutter code to GitHub then upload.key should automatically ignore because ignore.git contain that filename	
+
+	gradlew basically used for make the build for the  project and give as a apk or aab for android.
+
+	if the backend is decide which type of requestbody is accept like json means contenttype : application/json then u only got response if the requestbody in the form of json other wise 400.
+	
+	in springboot one repository for the one class so we cant make the repository as a generic class
+In bloc:
+	Event is the request body and value of the event variable was given by UI side.
+	And then call bloc in the UI then bloc should executed it call event and state and also call repository.
+	api(service) called in the repository
+	reposity send response of api to the model 
+	model parse that json using factory and model return the json
+	model returned json send to the state and based on the model or response we set the state
+	repository was called in the bloc and repository  call model and gets its return value and repository return that value to the bloc
+
+Testing:
+
+-in testing two type of testing is there one is manual testing , automation testing (selenium)
+-ManualTesting:
+	Two type is there functional and non functional
+-In functional contain:
+	-retest - If tester saw any bugs then he inform to the development team then again test that
+	-regression - If tester saw any issues in the module that is called regression
+	-sanity - If the tester saw any problem in the page of the module that is called sanity test.
+	-smoke testing - basic level testing like install and login
+	-exploratory testing - blind user level testing which means test without any knowledge of the app
+	-unit testing - Module or component based testing
+	-Integration testing - to test one page changes reflect on another one.
+	-system testing - Overall one workflow of app 

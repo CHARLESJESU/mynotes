@@ -1,0 +1,123 @@
+smartupdate
+rfid reader
+offline concept
+playstore publish
+online offline merge
+background thread
+
+01/12/2025:
+
+	Vface UI 2 screen completed
+	Checkin API integrated with UI
+
+02/12/2025:
+	
+	Checkin flow changed which means instead one check in button we want checkin for based on bedid
+	Smart update was removed from the login screen
+
+03/12/2025:
+
+	hostelian logo changed which logo was given by suruthi akka
+	Checkin advance and cost are autofilled by roominfo API (buildingid frequently changed and that was not comes to my knowledge)
+
+04/12/2025:
+
+	Checkin Payload formation which include assetid and checkin field details
+	Checkin API testing which gives errorcode : 2027 "Failed to create member".( over come by correct email id on 09/12/2025)
+
+05/12/2025:
+
+	Play store detailed filled for hostelia by me except aab file 
+	Play store update indication inside the App completed for all like agent, driver, hostelia.
+
+06/12/2025
+
+	Loadmember Api and Country api fetch
+	Add fields such as Pincode, Elastic Search, Send invite
+        pincode elastic search took more load time so user must know the pincode
+	same problem occur in load member so we decide after entered 10 digit mobile number just check exist or not
+	
+07/12/2025 (Sunday)
+ 
+	R&D for deduct plugin device (Found the solution at 7.00pm)
+
+08/12/2025
+
+	Checkin API completed for exist member and it not give the response for new member
+	Mobile number check was changed.
+	Checkout is completed. but it is not removed from the roominfo page.
+
+09/12/2025
+
+	Final Settlement API integration after called the Checkout api
+	Email format check
+	
+10/12/2025
+
+	EB process API integrated 
+	eb reading of room is listed based on the floorid api connected
+	Agent approval waiting screen after callsheetscreen and I released one apk 
+	Issues was found by testing and that was solved and built the apk.(screen does not open)
+
+11/12/2025
+
+	Production app bell Icon, here I done UI + api integration
+	Agent apk issue fixed(open and close it is work)
+	I put build and send apk to the testing in the form of production
+
+12/12/2025: 
+
+	Agent apk updated in the playstore.( it is delay because 4 apk is in one place if I made mistake then I should again put build apk and aab)
+	dancer and setting build aab file send to suruthi akka.
+	working on eb processing. 
+
+13/12/2025:
+
+	Hostelia eb process completed.
+	3 apk hand over to the suruthi akka.
+	hostelia uploaded in playstore.
+
+14/12/2025:(sunday)
+
+15/12/2025: 
+
+	Process Rent api integration.
+	Process Rent api UI design.
+	Hostelian is not published yet so will go to solve the issue.
+	create a separate flow for PG, Cash, check because URL should be connect here
+	for come to this page everytime I must checkin so it take time.
+	paymenturl is a backend issue.(for both send and show link paymenturl is empty)
+
+16/12/2025:
+
+	transfer api integration. 
+	hostelia was reject so again give the aab file in playstore.
+	
+17/12/2025:
+
+	hostelian reject by playstore so reupload it.
+	transfer page navigation completed until checkinpage.
+
+18/12/2025:
+
+	transfer workflow is completed.
+	cinefo setting build was given to the suruthi akka
+
+19/12/2025:
+
+	Code cleaning of login page for the cinefo dubbing is completed.
+	transfer checkout issue was solved
+
+20/12/2025:
+
+	login completely changed
+	Create the baseurl list page UI
+	Connect the backend for that page
+	creat one new screen for get only password
+	connect the backend for that screen
+
+22/12/2025:
+
+	Due page make payment UI was completed
+	Due page make payment api integration going on.
+	
