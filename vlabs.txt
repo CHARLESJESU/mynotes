@@ -120,4 +120,9 @@ background thread
 
 	Due page make payment UI was completed
 	Due page make payment api integration going on.
+
+23/12/2025:
+
+	Dashboard page api was completed.
+	
 	
