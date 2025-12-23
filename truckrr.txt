@@ -81,4 +81,9 @@
 22/12/2025:
 
 	Google MAP SPEED, DURATION and distance tracking is completed
-	HPCL page API integration
+	In HPCL page API integration, state,event and model was completed
+
+23/12/2025:
+
+	HPCL page service and bloc should be completed.
+	
