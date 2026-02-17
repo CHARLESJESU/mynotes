@@ -9,8 +9,7 @@ purpose and logic:
 - which means I call one class called IntimeSyncService().startSync(); it start one thread and it will run continueously.
 - IntimeSyncService().startSync(); send the local data to the server for each 10 sec.
 - why we create that means to reduce the queue length for tapping attendance and every time server hit also reduce
-- *******in this project I dont implement the session expired logic ********
-- 
+
 
 Cinefo Driver:
 

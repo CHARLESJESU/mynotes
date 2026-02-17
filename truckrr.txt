@@ -86,4 +86,20 @@
 23/12/2025:
 
 	HPCL page service and bloc should be completed.
+	HPCL hpcl card details page api integration completed.
 	
+24/12/2025:
+
+	In HPCL page, fuel card details of respective hpcl card api integration.
+	APIs notes and its purpose.
+	Search functionality of fuel card details completed based on the card no/vehicle no.
+
+26/12/2025:
+
+	CCMS balance APIs integration.
+	Check balance APIs integration for each fuel card.
+	
+27/12/2025:
+
+	CCMS to transfer API integration.
+	Block API integration.
