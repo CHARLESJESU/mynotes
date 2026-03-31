@@ -1,9 +1,0 @@
-faabia:
-
--2 user one is admin, user
--based on the login responsebody field of isrestaurentowner we split the screen 
--login credentials for admin given by me
--for admin after get all the details about restaurant then I generate one restaurentid for the admin and map that to the userid
--for user I use only userid as a unique one after login
--then I get the address detail from the user but it is optional.
--isrestaurentowner  in the backend is used for indentify the user easily.
